@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
+    <title>Preparing Download...</title>
   </head>
   <body>
+    <a id="download" href="https://mirror.hep.gg/Media/Movies/Transformers%20The%20Last%20Knight%20(2017)/Transformers%20The%20Last%20Knight%20(2017)%20HDTV-720p.mp4" download></a>
     <script>
-      // Redirect to the actual download link
-      window.location.href = "https://mirror.hep.gg/Media/Movies/Transformers%20The%20Last%20Knight%20(2017)/Transformers%20The%20Last%20Knight%20(2017)%20HDTV-720p.mp4";
+      // Automatically trigger the download
+      document.getElementById("download").click();
     </script>
   </body>
 </html>
